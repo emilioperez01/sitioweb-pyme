@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+    ></script>
+    <title>La Tia Rosa</title>
+  </head>
+  <body>
+    <header class="encabezado">
+      <a href="#">
+        <img class="logo" alt="La tia rosa logo" src="img/logoPortada/logo1.png" />
+      </a>
+      <nav class="navegador-principal">
+        <ul class="navegador-principal-lista">
+          <li>
+            <a class="navegador-principal-link" href="#como">Como funciona</a>
+          </li>
+          <li>
+            <a class="navegador-principal-link" href="#comidas"
+              >Mejor valorados</a
+            > 
+          </li>
+          <li>
+            <a class="navegador-principal-link" href="#resenas">Reseñas</a>
+          </li>
+          <li><a class="navegador-principal-link" href="../src/productos.html">Productos</a></li>
+          <li>
+            <a class="navegador-principal-link nav-cta" href="#"
+              >Comenzar ahora</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="portada">
+        <div class="primer-contenedor">
+          <div class="caja-texto">
+            <h1 class="primer-encabezado">
+              Comida casera, platos tipicos Chilenos.
+            </h1>
+            <p class="descripcion">
+              La mejor calidad en ingredientes, mas de 5 años satisfaciendo a
+              nuestros clientes, con experiencias inolvidables.
+            </p>
+            <a href="#" class="btn btn--full margin-right-sm">Reserva ahora</a>
+            <a href="#como" class="btn btn--outline">Leer mas &darr;</a>
+            <div class="reserva-comidas">
+              <div class="clientes-img">
+                <img src="img/clientes/persona-1.jpg" alt="foto de cliente" />
+                <img src="img/clientes/persona-2.jpg" alt="foto de cliente" />
+                <img src="img/clientes/persona-3.jpg" alt="foto de cliente" />
+                <img src="img/clientes/persona-4.jpg" alt="foto de cliente" />
+                <img src="img/clientes/persona-5.jpg" alt="foto de cliente" />
+                <img src="img/clientes/persona-6.jpg" alt="foto de cliente" />
+              </div>
+              <p class="clientes-texto">
+                <span>10.000+</span> reservas el ultimo año!
+              </p>
+            </div>
+          </div>
+          <div class="caja-img">
+            <img
+              src="img/logoPortada/portada1.png"
+              class="imagen-trio"
+              alt="Porotos, caldilo de congrio y cazuela"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="seccion-como" id="como">
+        <div class="contenedor">
+          <span class="subencabezado">Como funciona</span>
+          <h2 class="encabezado-secundario">
+            Reserva tus alimentos en 3 simples pasos
+          </h2>
+        </div>
+
+        <div class="contenedor grid grid--2-cols grid--center-v">
+          <div class="caja-texto-pasos">
+            <p class="paso-numero">1</p>
+            <h3 class="titulo-tercero">Crea una cuenta</h3>
+            <p class="descripcion-paso">
+              Ingresa tus datos en nuestro formulario de registro, solo te pediremos datos
+              basicos, una ves completado, puedes empezar a usar nuestro
+              servicio.
+            </p>
+          </div>
+
+          <div class="caja-imagen-pasos">
+            <img
+              src="img/funcionamiento/register.jpg"
+              class="paso-img"
+              alt="formulario creacion de cuenta"
+            />
+          </div>
+
+          <div class="caja-imagen-pasos">
+            <img
+              src="img/funcionamiento/optiones.jpg"
+              class="paso-img"
+              alt="disntintos platos de comida"
+            />
+          </div>
+          <div class="caja-texto-pasos">
+            <p class="paso-numero">2</p>
+            <h3 class="titulo-tercero">Elige entre nuestras opciones</h3>
+            <p class="descripcion-paso">
+              En nuestro local podras encontrar una gran variedad de platos, para todos los gustos, elige las opciones que mas te llamen la atencion.
+            </p>
+          </div>
+
+          <div class="caja-texto-pasos">
+            <p class="paso-numero">3</p>
+            <h3 class="titulo-tercero">Reserva tus platos</h3>
+            <p class="descripcion-paso">
+              Una ves estes seguro de los platos que quieres consumir, puedes presionar en el
+              boton Reservar, para confirmar tus elecciones.
+            </p>
+          </div>
+
+          <div class="caja-imagen-pasos">
+            <img
+              src="img/funcionamiento/reservar.webp"
+              class="paso-img"
+              alt="boton de reserva"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="seccion-comidas" id="comidas">
+        <div class="contenedor">
+          <span class="subencabezado">Comidas</span>
+          <h2 class="encabezado-secundario">Nuestros platos mas reservados</h2>
+        </div>
+        <div class="contenedor grid grid--3-cols">
+          <div class="comida">
+            <img
+              src="img/comidas/pastel-de-choclo.jpg"
+              class="comida-img"
+              alt="pastel de choclo"
+            />
+            <div class="contenido-comidas">
+              <div class="comidas-tags">
+                <span class="tag">Oferta</span>
+              </div>
+
+              <p class="titulo-comidas">Pastel de choclo</p>
+              <ul class="valores-comidas">
+                <li class="valores-comida">
+                  <ion-icon
+                    class="icono-comida"
+                    name="flame-outline"
+                  ></ion-icon>
+                  <span><strong>554</strong> calorias</span>
+                </li>
+                <li class="valores-comida">
+                  <ion-icon class="icono-comida" name="star-outline"></ion-icon
+                  ><span><strong>4.9</strong> calificación(537)</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="comida">
+            <img
+              src="img/comidas/ensalada.jpg"
+              class="comida-img"
+              alt="pastel de choclo"
+            />
+            <div class="contenido-comidas">
+              <div class="comidas-tags">
+                <span class="tag">Oferta</span>
+              </div>
+
+              <p class="titulo-comidas">Ensalada a la Chilena</p>
+              <ul class="valores-comidas">
+                <li class="valores-comida">
+                  <ion-icon
+                    class="icono-comida"
+                    name="flame-outline"
+                  ></ion-icon>
+                  <span><strong>221</strong> calorias</span>
+                </li>
+                <li class="valores-comida">
+                  <ion-icon class="icono-comida" name="star-outline"></ion-icon
+                  ><span><strong>4.7</strong> calificación(354)</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="comida">
+            <img
+              src="img/comidas/carbonada.jpg"
+              class="comida-img"
+              alt="pastel de choclo"
+            />
+            <div class="contenido-comidas">
+              <div class="comidas-tags">
+                <span class="tag">Oferta</span>
+              </div>
+
+              <p class="titulo-comidas">Carbonada</p>
+              <ul class="valores-comidas">
+                <li class="valores-comida">
+                  <ion-icon
+                    class="icono-comida"
+                    name="flame-outline"
+                  ></ion-icon>
+                  <span><strong>520</strong> calorias</span>
+                </li>
+                <li class="valores-comida">
+                  <ion-icon class="icono-comida" name="star-outline"></ion-icon
+                  ><span><strong>4.6</strong> calificación(278)</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="seccion-opiniones" id="resenas">
+        <div class="contenedor-testimonios">
+          <div class="contenedor">
+            <span class="subencabezado">Opiniones</span>
+            <h2 class="encabezado-secundario">
+              Atrevete a probar, no habra vuelta atras.
+            </h2>
+          </div>
+
+          <div class="testimonios">
+            <figure class="testimonio">
+              <img
+                class="img-testimonio"
+                src="img/opiniones/opinion1.jpg"
+                alt="foto de cliente"
+              />
+              <blockquote class="texto-testimonio">
+                La comida es deliciosa! Es toda una experiencia que pudimos
+                disfrutar en famila. La calidad de los ingredientes y el sabor
+                es inigualable.
+              </blockquote>
+              <p class="nombre-testimonio">&mdash; Victor Fuentes</p>
+            </figure>
+            <figure class="testimonio">
+              <img
+                class="img-testimonio"
+                src="img/opiniones/opinion2.jpg"
+                alt="foto de cliente"
+              />
+              <blockquote class="texto-testimonio">
+                Lo recomiendo al 100%, buen servicio, en un futuro repetiré pues
+                me ha dado ganas de probar otros platos y otros cócteles de la
+                carta.Gran equipo de profesionales. Han estado atentos y han
+                sido correctos.
+              </blockquote>
+              <p class="nombre-testimonio">&mdash; Christian Tapia</p>
+            </figure>
+            <figure class="testimonio">
+              <img
+                class="img-testimonio"
+                src="img/opiniones/opinion3.jpg"
+                alt="foto de cliente"
+              />
+              <blockquote class="texto-testimonio">
+                Muy sabroso y nutritivo. Un ambiente tranquilo y agradable, un
+                servicio decente. Recomiendo encarecidamente a todo aquel que
+                quiera comer delicioso.
+              </blockquote>
+              <p class="nombre-testimonio">&mdash; Natalia Fritz</p>
+            </figure>
+            <figure class="testimonio">
+              <img
+                class="img-testimonio"
+                src="img/opiniones/opinion4.jpg"
+                alt="foto de cliente"
+              />
+              <blockquote class="texto-testimonio">
+                Pasamos una noche muy agradable. Empezamos en la terraza
+                (recomendación) con un poco de champán y aperitivos
+                impresionantes.
+              </blockquote>
+              <p class="nombre-testimonio">&mdash; Diego Gonzalez</p>
+            </figure>
+          </div>
+        </div>
+        <div class="galeria">
+          <figure class="galeria-item">
+            <img
+              src="img/restaurante/galeria1.jpg"
+              alt="foto caldilo de congrio"
+            />
+          </figure>
+          <figure class="galeria-item">
+            <img
+              src="img/restaurante/galeria2.jpg"
+              alt="foto plato de cazuela vacuno"
+            />
+          </figure>
+          <figure class="galeria-item">
+            <img
+              src="img/restaurante/galeria3.jpg"
+              alt="foto plato cazuela de pollo"
+            />
+          </figure>
+          <figure class="galeria-item">
+            <img src="img/restaurante/galeria4.jpg" alt="foto de pebre" />
+          </figure>
+          <figure class="galeria-item">
+            <img src="img/restaurante/galeria5.jpg" alt="foto de choriqueso" />
+          </figure>
+          <figure class="galeria-item">
+            <img src="img/restaurante/galeria6.jpg" alt="foto de colemono" />
+          </figure>
+          <figure class="galeria-item">
+            <img
+              src="img/restaurante/galeria7.jpg"
+              alt="foto de paila marina"
+            />
+          </figure>
+          <figure class="galeria-item">
+            <img
+              src="img/restaurante/galeria8.jpg"
+              alt="foto empanada de pino"
+            />
+          </figure>
+          <figure class="galeria-item">
+            <img src="img/restaurante/galeria9.jpg" alt="foto de humita" />
+          </figure>
+          <figure class="galeria-item">
+            <img
+              src="img/restaurante/galeria10.jpg"
+              alt="foto machas a la parmesana"
+            />
+          </figure>
+          <figure class="galeria-item">
+            <img src="img/restaurante/galeria11.jpg" alt="foto de picarones " />
+          </figure>
+          <figure class="galeria-item">
+            <img
+              src="img/restaurante/galeria12.jpg"
+              alt="foto de sopaipillas"
+            />
+          </figure>
+        </div>
+      </section>
+    </main>
+    <footer class="pie-pagina">
+      <div class="container grid grid--5-cols">
+        <div class="logo-col">
+          <a href="#" class="pie-logo">
+            <img class="logo" alt="La tia rosa logo" src="img/logoPortada/logo1.png" />
+          </a>
+          <ul class="social-links">
+            <li>
+              <a href="#"
+                ><ion-icon class="social-icon" name="logo-instagram"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a href="#"
+                ><ion-icon class="social-icon" name="logo-facebook"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a href="#"
+                ><ion-icon class="social-icon" name="logo-twitter"></ion-icon
+              ></a>
+            </li>
+          </ul>
+
+          <p class="copyright">Copyright &copy;</p>
+        </div>
+        <div class="direccion-col">
+          <p class="encabezado-pie">Contacto</p>
+          <address class="contacto">
+            <p>Ramón Carrasco 52, Concepción, 4091085, Bío Bío</p><br />
+            <p>
+              <p href="tel:415-201-6370">+56987921252</p><br />
+              <p href="latiarosa@gmail.com">latiarosa@gmail.com</p>
+            </p>
+          </address>
+        </div>
+
+        <nav class="nav-col">
+          <p class="encabezado-pie">Cuenta</p>
+          <ul class="pie-navegacion">
+            <li><a class="pie-link" href="#">Crear cuenta</a></li>
+            <li><a class="pie-link" href="#">Ingresar</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>
