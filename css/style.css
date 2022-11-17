@@ -1,1 +1,306 @@
+.encabezado {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fdf2e9;
+  height: 9.6rem;
+  padding: 0 4.8rem;
+}
 
+.logo {
+  height: 5.2rem;
+}
+.navegador-principal-lista {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
+}
+
+.navegador-principal-link:link,
+.navegador-principal-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: 1.8rem;
+  transition: all 0.3s;
+}
+
+.navegador-principal-link:hover,
+.navegador-principal-link:active {
+  color: #cf711f;
+}
+
+.navegador-principal-link.nav-cta:link,
+.navegador-principal-link.nav-cta:visited {
+  padding: 1.2rem 2.4rem;
+  border-radius: 9px;
+  color: #fff;
+  background-color: #e67e22;
+}
+
+.navegador-principal-link.nav-cta:hover,
+.navegador-principal-link.nav-cta:active {
+  background-color: #cf711f;
+}
+
+.portada {
+  background-color: #ffa07a;
+  padding: 4.8rem 0 9.6rem 0;
+}
+
+.primer-contenedor {
+  max-width: 130rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 9.6rem;
+  align-items: center;
+}
+
+.descripcion {
+  font-size: 2rem;
+  line-height: 1.6;
+  margin-bottom: 4.8rem;
+  margin-bottom: 4.8rem;
+}
+
+.imagen-trio {
+  width: 125%;
+}
+
+.reserva-comidas {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  margin-top: 8rem;
+}
+
+.clientes-img {
+  display: flex;
+}
+
+.clientes-img img {
+  height: 4.8rem;
+  width: 4.8rem;
+  border-radius: 50%;
+  margin-right: -1.6rem;
+  border: 3px solid #fdf2e9;
+}
+.clientes-img img:last-child {
+  margin: 0;
+}
+
+.clientes-texto {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.clientes-texto span {
+  color: #e67e22;
+  font-weight: 700;
+}
+
+.seccion-como {
+  padding: 9.6rem 0;
+}
+
+.paso-numero {
+  font-size: 9.8rem;
+  font-weight: 600;
+  color: #ddd;
+  margin-bottom: 1.2rem;
+}
+
+.descripcion-paso {
+  font-size: 1.8rem;
+  line-height: 1.8;
+}
+
+.caja-imagen-pasos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.paso-img {
+  width: 70%;
+}
+
+.seccion-comidas {
+  padding: 9.6rem 0;
+}
+
+.comida {
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+  border-radius: 11px;
+  overflow: hidden;
+}
+
+.contenido-comidas {
+  padding: 3.2rem 4.8rem 4.8rem 4.8rem;
+}
+
+.comidas-tags {
+  margin-bottom: 1.2rem;
+}
+
+.tag {
+  display: inline-block;
+  padding: 0.4rem 0.8rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  background-color: #51cf66;
+  color: #333;
+  border-radius: 100px;
+  font-weight: 600;
+}
+
+.titulo-comidas {
+  font-size: 2.4rem;
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 3.2rem;
+}
+
+.valores-comidas {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.valores-comida {
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.icono-comida {
+  height: 2.4rem;
+  width: 2.4rem;
+  color: #e67e22;
+}
+
+.comida-img {
+  width: 100%;
+}
+
+.seccion-opiniones {
+  background-color: #fdf2e9;
+  display: grid;
+  grid-template-columns: 55fr 45fr;
+  align-items: center;
+}
+
+.contenedor-testimonios {
+  padding: 2rem;
+}
+
+.testimonios {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4.8rem;
+  padding: 9.6rem;
+  column-gap: 8rem;
+}
+
+.img-testimonio {
+  width: 6.4rem;
+  border-radius: 50%;
+  margin-bottom: 1.2rem;
+}
+
+.texto-testimonio {
+  font-size: 1.8rem;
+  line-height: 1.8;
+  margin-bottom: 1.6rem;
+}
+
+.nombre-testimonio {
+  font-size: 1.6rem;
+  color: #6f6f6f;
+}
+
+.galeria {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.6rem;
+  padding: 1.6rem;
+}
+
+.galeria-item {
+  overflow: hidden;
+}
+
+.galeria-item img {
+  display: block;
+  width: 100%;
+  transition: all 0.4s;
+}
+
+.galeria-item img:hover {
+  transform: scale(1.1);
+}
+
+.pie-pagina {
+  padding: 9.6rem 0;
+  margin-left: 9.6rem;
+}
+
+.pie-logo {
+  display: block;
+  margin: 3.2rem;
+}
+
+.social-links {
+  list-style: none;
+  display: flex;
+  gap: 2.4rem;
+}
+
+.contacto {
+  font-size: 1.4rem;
+  color: #767676;
+}
+
+.social-icon {
+  height: 2.4rem;
+  width: 2.4rem;
+  margin-left: 4rem;
+}
+
+.copyright {
+  font-size: 1.4rem;
+  color: #767676;
+  margin-left: 4rem;
+  margin-top: 2rem;
+}
+
+.encabezado-pie {
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 3.2rem;
+}
+
+.pie-navegacion {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.pie-link:link,
+.pie-navegacion:visited {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: #767676;
+  transition: all 0.3s;
+}
+
+.pie-link:hover,
+.pie-navegacion:active {
+  color: #555;
+}
